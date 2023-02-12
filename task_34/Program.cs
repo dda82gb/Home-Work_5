@@ -5,7 +5,7 @@
 
 Console.Clear();
 
-int[] numbers = new int[4];
+int[] numbers = new int[6];
 
 void FillArray(int[] array, int min, int max)
 {

@@ -4,12 +4,12 @@
 
 Console.Clear();
 
-int[] arrayRealNum = new int[10];
+int[] arrayRealNum = new int[6];
 Console.ForegroundColor = ConsoleColor.Green;
 Console.Write("[ ");
   for (int i = 0; i < arrayRealNum.Length; i++ )
   {
-    arrayRealNum[i] = new Random().Next(1, 10);
+    arrayRealNum[i] = new Random().Next(1, 100);
     Console.Write(arrayRealNum[i] + ", ");
   }
 
